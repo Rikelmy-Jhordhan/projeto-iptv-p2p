@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor0: #144E73;
+    --cor1: #1B68A0;
+    --cor2: #F2D857;
+    --cor3: #D95F76;
+    --cor4: #B89C91;
+}
+
+body {
+    max-width: 1150px;
+    margin: auto;
+}
+
+
+
+header div#navegacao {
+    padding: 15px 0px 20px 0px;
+    text-align: center;
+    font-size: 0.9em;
+    box-shadow: inset -1px -2px 7px 1px #00000030;
+}
+
+header div#navegacao a {
+    color: black;
+    font-size: 1.7em;
+    font-weight: bolder;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+header div#navegacao a:hover {
+    color: var(--cor2);
+}
+
+/*Menu inicial*/
+
+header nav#nav-principal {
+    background-color:var(--cor0);
+    text-align: right;
+    padding: 32px 0px 64px 0px;
+}
+
+header nav#nav-principal div img {
+    max-width: 120px;
+    padding: 0px 274px 0px 0px;
+}
+
+header nav#nav-principal a {
+    color: var(--cor2);
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 0px 57px 0px 0px;
+}
+
+header nav#nav-principal a:hover {
+    color: var(--cor4);
+}
+
+/*Menu principal*/
+
+section#melhor-brasil {
+    color: #F2ECD8;
+    background-image: url(imagens/torcedor.png);
+    text-align: center;
+    max-height: 550px;
+    box-shadow: inset -1px -2px 7px 1px #00000030;
+    padding: 0px 0px 150px 0px;
+
+}
+
+section#melhor-brasil h1 {
+    font-size: 2.7em;
+    padding-top: 60px;
+    
+}
+
+section#melhor-brasil span {
+    color: var(--cor2);
+}
+
+section#melhor-brasil p {
+    text-align: center;
+}
+
+section div#melhor-brasil-para {
+
+    text-align: center;
+    padding: 165px 0px 0px 0px;
+}
+
+section div#melhor-brasil-para p {
+    background-color: #00000038;
+    padding: 10px 5px;
+}
+
+/*Melhor iptv do brasil parte inicial dos conteúdos*/
+
+
+section#nova-renda {
+    line-height: 1.5em;/*espaço entre as linhas, textos*/
+}
+
+section#nova-renda h1 {
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0px 15px 0px;
+}
+
+section article#renda-extra {
+    background-color: var(--cor2);
+}
+
+section article#renda-extra h1 {
+    
+    font-size: 2.7em;
+}
+
+section article#renda-extra h2 {
+
+    font-size: 1.3em;
+
+}
+
+section article#renda-extra p {
+
+    font-size: 1em;
+
+}
