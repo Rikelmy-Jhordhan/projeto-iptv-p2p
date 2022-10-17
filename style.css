@@ -54,7 +54,7 @@ header nav#nav-principal div img {
 }
 
 header nav#nav-principal a {
-    color: var(--cor2);
+    color: black;
     font-weight: bolder;
     text-decoration: none;
     margin: 0px 57px 0px 0px;
@@ -68,25 +68,30 @@ header nav#nav-principal a:hover {
 
 section#melhor-brasil {
     color: #F2ECD8;
-    background-image: url(imagens/torcedor.png);
+    background-image: url(imagens/fundo-fera-bela.jpg);
+    background-size: 1220px 600px;
+    background-repeat: no-repeat;
     text-align: center;
-    max-height: 550px;
     box-shadow: inset -1px -2px 7px 1px #00000030;
     padding: 0px 0px 150px 0px;
 
 }
 
 section#melhor-brasil h1 {
+    color: var(--cor2);
     font-size: 2.7em;
     padding-top: 60px;
     
 }
 
-section#melhor-brasil span {
-    color: var(--cor2);
+section#melhor-brasil h1 div {
+    background-color: #00000073;
 }
 
+
+
 section#melhor-brasil p {
+    color: var(--cor2);
     text-align: center;
 }
 
@@ -97,7 +102,7 @@ section div#melhor-brasil-para {
 }
 
 section div#melhor-brasil-para p {
-    background-color: #00000038;
+    background-color: #00000073;
     padding: 10px 5px;
 }
 
