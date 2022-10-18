@@ -18,8 +18,7 @@
 body {
     max-width: 1150px;
     margin: auto;
-    text-indent: 20px;
-
+    
 }
 
 body h1 {
@@ -156,3 +155,47 @@ section  div#renda-extra-pp p {
     color: var(--cor2);
 
 }
+
+/*Inicio da nova fonte de renda */
+
+section article#revendedor {
+    background-color: var(--cor2);
+    text-align: center;
+}
+
+section article#revendedor h1 {
+
+}
+
+section article#revendedor h2 {
+
+}
+
+section article#revendedor p {
+
+}
+
+section section#tabela {
+
+}
+
+section section#tabela a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 60px 0px 3px;
+    margin: 20px 0px 0px 0px;
+}
+
+section div.preco-revenda {
+    
+}
+
+section div.preco-revenda li {
+    list-style: none;   
+    max-width: 155px;
+}
+
+
+/*Valores da nova renda*/
+
